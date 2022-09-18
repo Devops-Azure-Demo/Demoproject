@@ -20,6 +20,7 @@ public class Application {
         return args -> {
 
             System.out.println("Hello");
+            
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
